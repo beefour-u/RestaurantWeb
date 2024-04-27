@@ -136,7 +136,7 @@ ul {
   content: "";
   height: 2px;
   width: 40px;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   right: 0;
@@ -151,7 +151,7 @@ ul {
   content: "";
   height: 3px;
   width: 60px;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   bottom: -35px;
@@ -164,7 +164,7 @@ ul {
   content: "";
   height: 4px;
   width: 55px;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   bottom: -25px;
@@ -177,7 +177,7 @@ ul {
   content: "";
   height: 3px;
   width: 50px;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   bottom: -15px;
@@ -190,7 +190,7 @@ ul {
   content: "";
   height: 3px;
   width: 45px;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   bottom: -35px;
@@ -199,11 +199,24 @@ ul {
 .title-bar-footer {
   position: relative;
 }
+
+
+/* footer */
+/* .footer-area-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright, .email-link {
+  margin: 0; /* Remove default margins */
+} */
+
 .title-bar-footer:before {
   content: "";
   height: 3px;
   width: 45px;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   bottom: -25px;
@@ -216,7 +229,7 @@ ul {
   content: "";
   height: 4px;
   width: 45px;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   bottom: -15px;
@@ -229,7 +242,7 @@ ul {
   content: "";
   height: 3px;
   width: 55px;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   right: 0;
@@ -244,7 +257,7 @@ ul {
   content: "";
   height: 2px;
   width: 97%;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   bottom: -12px;
@@ -298,7 +311,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .title-small a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -354,7 +367,7 @@ ul {
   text-align: center;
   display: block;
   text-transform: uppercase;
-  color: #b01403;
+  color: #b00303;
   position: relative;
   width: 550px;
   font-size: 18px;
@@ -405,7 +418,7 @@ ul {
   content: "";
   height: 3px;
   width: 55px;
-  background: #b01403;
+  background: #b09f03;
   position: absolute;
   left: 0;
   right: 0;
@@ -461,12 +474,12 @@ ul {
 }
 .food-menu-title span i:before {
   font-size: 50px;
-  color: #b01403;
+  color: #b09f03;
   margin-left: 0;
 }
 .food-menu-title span:before {
   content: "";
-  background: #b01403;
+  background: #b09f03;
   height: 3px;
   width: 80px;
   position: absolute;
@@ -475,7 +488,7 @@ ul {
 }
 .food-menu-title span:after {
   content: "";
-  background: #b01403;
+  background: #b09f03;
   height: 3px;
   width: 80px;
   position: absolute;
@@ -514,8 +527,8 @@ ul {
   }
 }
 .ghost-btn:hover {
-  background: #b01403;
-  border: 2px solid #b01403;
+  background: #b09f03;
+  border: 2px solid #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -525,8 +538,8 @@ ul {
 }
 .ghost-color-btn {
   font-family: 'Oswald', sans-serif;
-  border: 2px solid #b01403;
-  color: #b01403;
+  border: 2px solid #b09f03;
+  color: #b09f03;
   padding: 10px 44px;
   background: transparent;
   text-transform: uppercase;
@@ -541,7 +554,7 @@ ul {
 }
 .ghost-color-btn i {
   margin-left: 10px;
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -549,7 +562,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .ghost-color-btn:hover {
-  background: #b01403;
+  background: #b09f03;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -568,7 +581,7 @@ ul {
 .ghost-text-color-btn {
   font-family: 'Oswald', sans-serif;
   border: 2px solid #bdbdbd;
-  color: #b01403;
+  color: #b09f03;
   padding: 10px 44px;
   background: transparent;
   text-transform: uppercase;
@@ -582,8 +595,8 @@ ul {
   transition: all 0.3s ease-out;
 }
 .ghost-text-color-btn:hover {
-  border: 2px solid #b01403;
-  background: #b01403;
+  border: 2px solid #b09f03;
+  background: #b09f03;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -593,7 +606,7 @@ ul {
 }
 .ghost-semi-color-btn {
   font-family: 'Oswald', sans-serif;
-  border: 2px solid #b01403;
+  border: 2px solid #b09f03;
   color: #ffffff;
   padding: 10px 44px;
   background: transparent;
@@ -608,7 +621,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .ghost-semi-color-btn:hover {
-  background: #b01403;
+  background: #b09f03;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -618,10 +631,10 @@ ul {
 }
 .ghost-on-hover-btn {
   font-family: 'Oswald', sans-serif;
-  border: 2px solid #b01403;
+  border: 2px solid #b09f03;
   color: #ffffff;
   padding: 12px 40px;
-  background: #b01403;
+  background: #b09f03;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
@@ -634,7 +647,7 @@ ul {
 }
 .ghost-on-hover-btn:hover {
   background: transparent;
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -645,7 +658,7 @@ ul {
   font-family: 'Oswald', sans-serif;
   color: #ffffff;
   padding: 12px 44px;
-  background: #b01403;
+  background: #b09f03;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
@@ -685,7 +698,7 @@ ul {
 }
 .book-now-btn:hover {
   background: #ffcdd2;
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -697,7 +710,7 @@ ul {
 ---------------------------------------*/
 .owl-controls .owl-prev {
   left: -45px;
-  border: 1px solid #b01403;
+  border: 1px solid #b09f03;
   background: transparent!important;
   opacity: 1!important;
   font-size: 18px!important;
@@ -724,7 +737,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .owl-controls .owl-prev:hover {
-  background: #b01403 !important;
+  background: #b09f03 !important;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -741,7 +754,7 @@ ul {
 }
 .owl-controls .owl-next {
   right: -45px;
-  border: 1px solid #b01403;
+  border: 1px solid #b09f03;
   background: transparent!important;
   opacity: 1!important;
   font-size: 18px!important;
@@ -768,7 +781,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .owl-controls .owl-next:hover {
-  background: #b01403 !important;
+  background: #b09f03 !important;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -787,7 +800,7 @@ ul {
 1.5 ScrollUp Area Styles 
 ---------------------------------------*/
 #scrollUp {
-  background-color: rgba(231, 39, 45, 0.8);
+  background-color: #b09f03;
   bottom: 5px;
   color: #ffffff !important;
   display: block;
@@ -812,7 +825,7 @@ ul {
 }
 #scrollUp:hover i,
 #scrollUp:focus i {
-  color: #b01403;
+  color: #b09f03;
 }
 /*-------------------------------------
 1.6 Preloader Area Styles
@@ -882,7 +895,7 @@ ul {
   color: #ffffff;
 }
 .inner-page-banner-area .pagination-area ul li a {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -909,10 +922,10 @@ ul {
   margin: 0 1px;
 }
 .mypagination li a {
-  border: 1px solid #b01403;
+  border: 1px solid #b09f03;
   width: 42px;
   font-size: 16px;
-  color: #b01403;
+  color: #b09f03;
   height: 40px;
   background: transparent;
   display: block;
@@ -926,7 +939,7 @@ ul {
 }
 .mypagination li a:hover {
   color: #ffffff;
-  background: #b01403;
+  background: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -978,7 +991,7 @@ ul {
   text-align: center;
 }
 .main-menu-area nav ul .active > a {
-  color: #b01403 !important;
+  color: #b09f03!important;
 }
 .main-menu-area nav ul li {
   display: inline-block;
@@ -1001,7 +1014,7 @@ ul {
   }
 }
 .main-menu-area nav ul li a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -1020,14 +1033,14 @@ ul {
   transition: all 0.5s ease 0s;
   width: 180px;
   z-index: 99999;
-  background: #b01403;
+  background: #b09f03;
   padding: 0;
   left: 0;
 }
 .main-menu-area nav ul li ul > li {
   padding: 0;
   display: block;
-  border-bottom: 1px solid #d32f2f;
+  border-bottom: 1px solid #b09f03;
 }
 .main-menu-area nav ul li ul > li > a {
   padding: 10px 10px 10px 15px;
@@ -1038,7 +1051,7 @@ ul {
   border-bottom: none;
 }
 .main-menu-area nav ul li ul > li:hover {
-  background: #d32f2f;
+  background: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -1085,7 +1098,7 @@ ul {
 }
 .main-menu-area nav ul li .mega-menu-area > li:hover > a:hover {
   color: #ffffff;
-  background: #d32f2f;
+  background: #b09f03;
   padding-left: 10px;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
@@ -1096,7 +1109,7 @@ ul {
 .main-menu-area nav ul li .mega-menu-area > li a {
   padding: 8px 0;
   display: block;
-  border-bottom: 1px solid #d32f2f;
+  border-bottom: 1px solid #b09f03;
 }
 .main-menu-area nav ul li .mega-menu-area > li a:last-child {
   border-bottom: none;
@@ -1141,7 +1154,7 @@ ul {
   top: 50px;
   right: 0;
   z-index: 10;
-  color: #b01403;
+  color: #b09f03;
   font-weight: 600;
   font-size: 14px;
   height: 40px;
@@ -1154,7 +1167,7 @@ ul {
   box-shadow: 0 0 0.5px -1.5px rgba(153, 157, 163, 0.4);
 }
 .header-search a > i {
-  color: #b01403;
+  color: #b09f03;
   font-size: 18px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -1163,7 +1176,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .header-search a > i:hover {
-  color: #d32f2f;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -1176,7 +1189,7 @@ ul {
   top: -7px;
   right: 40px;
   z-index: 10;
-  color: #b01403;
+  color: #b09f03;
   font-weight: 600;
   font-size: 14px;
   height: 40px;
@@ -1189,7 +1202,7 @@ ul {
   box-shadow: 0 0 0.5px -1.5px rgba(153, 157, 163, 0.4);
 }
 .header-search3 a > i {
-  color: #b01403;
+  color: #b09f03;
   font-size: 18px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -1198,7 +1211,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .header-search3 a > i:hover {
-  color: #d32f2f;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -1213,7 +1226,7 @@ ul {
   font-size: 24px;
 }
 .cart-area > a > span {
-  background: #b01403;
+  background: #b09f03;
   border-radius: 45px;
   color: #ffffff;
   height: 20px;
@@ -1286,7 +1299,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .cart-area > ul > li .media .cart-content ul li h1 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -1304,7 +1317,7 @@ ul {
   color: #000000;
 }
 .cart-area > ul > li .media .cart-content ul li .trash:hover {
-  color: #fb0303;
+  color: #b09f03;
 }
 .cart-area > ul > li .media .cart-content ul li:first-child {
   width: 140px;
@@ -1413,7 +1426,7 @@ ul {
 }
 .header2-area .header-top-area .header-top-left ul li i {
   padding-right: 5px;
-  color: #b01403;
+  color: #b09f03;
   font-size: 14px;
 }
 .header2-area .header-top-area .header-top-left ul li a {
@@ -1430,7 +1443,7 @@ ul {
   margin-right: 0;
 }
 .header2-area .header-top-area .header-top-left ul li:hover a {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -1456,7 +1469,7 @@ ul {
 	}
 
 .header2-area .header-top-area .header-top-right ul li a i {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -1478,7 +1491,7 @@ ul {
   color: #222222;
 }
 .header2-area .header-bottom-area nav ul li a:hover {
-  color: #b01403;
+  color: #b09f03;
 }
 .header2-area .header-bottom-area nav ul li ul li a {
   color: #ffffff;
@@ -1501,7 +1514,7 @@ ul {
 }
 .header2-area .stick {
   background: rgba(255, 255, 255, 0.9);
-  border-bottom: 2px solid #b01403;
+  border-bottom: 2px solid #b09f03;
   position: fixed;
 }
 /*-------------------------------------
@@ -1526,7 +1539,7 @@ ul {
 }
 .header3-area .header-top-area .header-top-left ul li i {
   padding-right: 5px;
-  color: #b01403;
+  color: #b09f03;
   font-size: 18px;
 }
 .header3-area .header-top-area .header-top-left ul li a {
@@ -1546,7 +1559,7 @@ ul {
   margin-right: 0;
 }
 .header3-area .header-top-area .header-top-left ul li:hover a {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -1636,7 +1649,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .mean-container .mean-nav ul li a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -1855,7 +1868,7 @@ ul {
 .slider1-area .slide-1 h1 span,
 .slider1-area .slide-2 h1 span,
 .slider1-area .slide-3 h1 span {
-  color: #b01403;
+  color: #b09f03;
 }
 .slider1-area .slide-1 p,
 .slider1-area .slide-2 p,
@@ -1899,7 +1912,7 @@ ul {
   margin-bottom: 0;
 }
 .about1-area .about1-area-top h2 span {
-  color: #b01403;
+  color: #b09f03;
 }
 .about1-area h3 {
   color: #c4c4c4;
@@ -2009,7 +2022,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .about2-area .about2-top .about2-top-box h2 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -2017,7 +2030,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .about2-area .about2-top .about2-top-box:hover i:before {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -2044,7 +2057,7 @@ ul {
   }
 }
 .about2-area .about2-award-box .media a i:before {
-  color: #b01403;
+  color: #b09f03;
   font-size: 60px;
   padding: 40px 20px 0 0;
   display: block;
@@ -2152,7 +2165,7 @@ ul {
   color: #222222;
 }
 .about-page-left p span span {
-  color: #b01403;
+  color: #b09f03;
   font-size: 30px;
 }
 .about-page-right {
@@ -2201,7 +2214,7 @@ ul {
   right: 0;
 }
 .about-page-right .owl-controls .owl-dots .active span {
-  background: #b01403;
+  background: #b09f03;
 }
 .about-page-bottom {
   margin-top: 100px;
@@ -2216,7 +2229,7 @@ ul {
 }
 .about-page-bottom .about-page-bottom-box .media a i:before {
   margin-left: 0;
-  color: #b01403;
+  color: #b09f03;
   font-size: 30px;
   padding: 10px 10px 0 0;
   display: block;
@@ -2290,7 +2303,7 @@ ul {
   color: #222222;
 }
 .about-page2-content p span span {
-  color: #b01403;
+  color: #b09f03;
   font-size: 30px;
 }
 /*=====================================
@@ -2326,7 +2339,7 @@ ul {
 }
 .tasty-menu-area:before {
   content: "";
-  background-color: #b01403;
+  background-color: #b09f03;
   position: absolute;
   top: 0;
   height: 100%;
@@ -2491,7 +2504,7 @@ ul {
   font-size: 15px;
 }
 .tasty-menu-area .tasty-menu-inner ul li .media-body span {
-  color: #b01403;
+  color: #b09f03;
   position: absolute;
   right: 10px;
   top: 10px;
@@ -2560,7 +2573,7 @@ ul {
 }
 .recipe-of-the-day-area .recipe-of-the-day-box .recipe-of-the-day-content {
   text-align: center;
-  border: 5px solid #b01403;
+  border: 5px solid #b09f03;
 }
 @media only screen and (max-width: 1199px) {
   .recipe-of-the-day-area .recipe-of-the-day-box .recipe-of-the-day-content {
@@ -2603,7 +2616,7 @@ ul {
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 24px;
-  color: #b01403;
+  color: #b09f03;
 }
 .recipe-of-the-day-area .recipe-of-the-day-box .recipe-of-the-day-content .time-needs li p {
   margin-bottom: 0;
@@ -2620,7 +2633,7 @@ ul {
   }
 }
 .recipe-of-the-day-area .recipe-of-the-day-box .recipe-of-the-day-content .awards-box ul li a i {
-  color: #b01403;
+  color: #b09f03;
   font-size: 18px;
   margin-right: 5px;
   -webkit-transition: all 0.5s ease-out;
@@ -2670,7 +2683,7 @@ ul {
   margin: 5px 7px 2px 7px;
 }
 .recipe-of-the-day-area .owl-controls .active span {
-  background: #b01403 !important;
+  background: #b09f03 !important;
 }
 /*=====================================
 8. Recipe Of The Day 2 Area Styles
@@ -2707,23 +2720,23 @@ ul {
 }
 .recipe-of-the-day2-area .owl-nav .owl-prev {
   left: -60px;
-  background: #b01403 !important;
+  background: #b09f03 !important;
 }
 .recipe-of-the-day2-area .owl-nav .owl-prev:hover {
   background: transparent!important;
 }
 .recipe-of-the-day2-area .owl-nav .owl-prev:hover i {
-  color: #b01403 !important;
+  color: #b09f03 !important;
 }
 .recipe-of-the-day2-area .owl-nav .owl-next {
   right: -60px;
-  background: #b01403 !important;
+  background: #b09f03 !important;
 }
 .recipe-of-the-day2-area .owl-nav .owl-next:hover {
   background: transparent!important;
 }
 .recipe-of-the-day2-area .owl-nav .owl-next:hover i {
-  color: #b01403 !important;
+  color: #b09f03 !important;
 }
 .recipe-of-the-day2-area .owl-controls {
   margin-top: 30px;
@@ -2735,7 +2748,7 @@ ul {
   display: inline-flex;
 }
 .recipe-of-the-day2-area .owl-controls .owl-dots .active span {
-  background: #b01403 !important;
+  background: #b09f03 !important;
 }
 /*======================================
 9. Chefs Area Styles 
@@ -2776,29 +2789,29 @@ ul {
 }
 .expert-chefs-area .owl-nav .owl-prev {
   left: -60px;
-  background: #b01403 !important;
+  background: #b09f03 !important;
 }
 .expert-chefs-area .owl-nav .owl-prev:hover {
   background: transparent!important;
 }
 .expert-chefs-area .owl-nav .owl-prev:hover i {
-  color: #b01403 !important;
+  color: #b09f03 !important;
 }
 .expert-chefs-area .owl-nav .owl-next {
   right: -60px;
-  background: #b01403 !important;
+  background: #b09f03 !important;
 }
 .expert-chefs-area .owl-nav .owl-next:hover {
   background: transparent!important;
 }
 .expert-chefs-area .owl-nav .owl-next:hover i {
-  color: #b01403 !important;
+  color: #b09f03 !important;
 }
 .expert-chefs-area .owl-controls .owl-dots {
   margin-top: 30px;
 }
 .expert-chefs-area .owl-controls .owl-dots .active span {
-  background: #b01403;
+  background: #b09f03;
 }
 /*---------------------------------------
 9.2 Expert Chefs Box Styles 
@@ -2810,7 +2823,7 @@ ul {
 .expert-chefs-box .expert-chefs-box-content {
   text-align: center;
   padding: 15px 0 0 0;
-  background: #b01403;
+  background: #b09f03;
   width: 100%;
   position: absolute;
   bottom: -76px;
@@ -2844,7 +2857,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .expert-chefs-box .expert-chefs-box-content h3 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -2857,7 +2870,7 @@ ul {
 }
 .expert-chefs-box .expert-chefs-box-content p:before {
   content: "";
-  background: #b01403;
+  background: #b09f03;
   height: 1px;
   width: 170px;
   z-index: 3;
@@ -2912,7 +2925,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .expert-chefs-box .expert-chefs-box-content ul li:hover {
-  background: #b01403;
+  background: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -3083,19 +3096,19 @@ ul {
   margin-left: -5px;
 }
 .single-chef-top-area .single-chef-top-content .skill-area .progress:nth-child(1) .progress-bar {
-  background: #b01403;
+  background: #b09f03;
 }
 .single-chef-top-area .single-chef-top-content .skill-area .progress:nth-child(2) .progress-bar {
-  background: #b01403;
+  background: #b09f03;
 }
 .single-chef-top-area .single-chef-top-content .skill-area .progress:nth-child(3) .progress-bar {
-  background: #b01403;
+  background: #b09f03;
 }
 .single-chef-top-area .single-chef-top-content .skill-area .progress:nth-child(4) .progress-bar {
-  background: #b01403;
+  background: #b09f03;
 }
 .single-chef-top-area .single-chef-top-content .skill-area .progress:nth-child(5) .progress-bar {
-  background: #b01403;
+  background: #b09f03;
 }
 .single-chef-top-area .single-chef-top-content .single-chef-social {
   border: none;
@@ -3108,7 +3121,7 @@ ul {
 }
 .single-chef-top-area .single-chef-top-content .single-chef-social li a {
   background: transparent;
-  border: 1px solid #b01403;
+  border: 1px solid #b09f03;
   height: 40px;
   width: 40px;
   line-height: 40px;
@@ -3131,8 +3144,8 @@ ul {
   transition: all 0.5s ease-out;
 }
 .single-chef-top-area .single-chef-top-content .single-chef-social li:hover a {
-  border: 1px solid #b01403;
-  background: #b01403;
+  border: 1px solid #b09f03;
+  background: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -3180,28 +3193,28 @@ ul {
   top: -86px;
 }
 .single-chef-bottom-area .owl-nav .owl-prev {
-  background: #b01403 !important;
+  background: #b09f03 !important;
 }
 .single-chef-bottom-area .owl-nav .owl-prev:hover {
   background: transparent!important;
 }
 .single-chef-bottom-area .owl-nav .owl-prev:hover i {
-  color: #b01403 !important;
+  color: #b09f03 !important;
 }
 .single-chef-bottom-area .owl-nav .owl-next {
-  background: #b01403 !important;
+  background: #b09f03 !important;
 }
 .single-chef-bottom-area .owl-nav .owl-next:hover {
   background: transparent!important;
 }
 .single-chef-bottom-area .owl-nav .owl-next:hover i {
-  color: #b01403 !important;
+  color: #b09f03 !important;
 }
 .single-chef-bottom-area .owl-controls .owl-dots {
   margin-top: 30px;
 }
 .single-chef-bottom-area .owl-controls .owl-dots .active span {
-  background: #b01403;
+  background: #b09f03;
 }
 /*======================================
 10. Table Reservation Area Styles 
@@ -3264,7 +3277,7 @@ ul {
   position: absolute;
   right: 0px;
   padding: 15px 12px;
-  color: #b01403;
+  color: #b09f03;
   font-size: 16px;
 }
 .table-reservation1-area .reservation-form .reservation-input-box input {
@@ -3349,7 +3362,7 @@ ul {
   right: 0;
   margin: 0 auto;
   z-index: 8;
-  background-color: #b01403;
+  background-color: #b09f03;
 }
 @media only screen and (max-width: 767px) {
   .table-reservation2-area .table-reservation2-left {
@@ -3452,7 +3465,7 @@ ul {
   width: 300px;
 }
 .table-reservation2-area .table-reservation2-right p span {
-  color: #b01403;
+  color: #b09f03;
   font-size: 18px;
 }
 .table-reservation2-area .table-reservation2-right .reservation2-banner {
@@ -3523,7 +3536,7 @@ ul {
   content: "";
   height: 100%;
   width: 100%;
-  background-color: #b01403;
+  background-color: #b09f03;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -3701,7 +3714,7 @@ ul {
 }
 .reservation-page-area .reservation-page-inner .reservation-page-left {
   flex: 1;
-  background-color: #b01403;
+  background-color: #b09f03;
 }
 .reservation-page-area .reservation-page-inner .reservation-page-left .reservation-page-form {
   background: url(../img/reservation2-back.png);
@@ -3870,7 +3883,7 @@ ul {
   }
 }
 .brand-area .brand-area-box:hover {
-  border: 1px solid #b01403;
+  border: 1px solid #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -3900,7 +3913,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .brand-area .owl-nav .owl-prev i {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -3922,7 +3935,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .brand-area .owl-nav .owl-next i {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -3981,7 +3994,7 @@ ul {
   display: inline-flex;
 }
 .brand-area .owl-controls .owl-dots .active span {
-  background: #b01403;
+  background: #b09f03;
 }
 /*======================================
 12. Client Reviews Area Styles 
@@ -4012,7 +4025,7 @@ ul {
   content: "";
   height: 100%;
   width: 100%;
-  background-color: #b01403;
+  background-color: #b09f03;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -4037,7 +4050,7 @@ ul {
 .client-reviews-area .client-reviews-right {
   padding: 55px 0 70px 0;
   margin-left: 65px;
-  background-color: #b01403;
+  background-color: #b09f03;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .client-reviews-area .client-reviews-right {
@@ -4238,7 +4251,7 @@ ul {
   background: #ffcdd2 !important;
 }
 .client-area .owl-controls .active span {
-  background: #b01403 !important;
+  background: #b09f03 !important;
 }
 /*======================================
 14. Award 1 Area Styles 
@@ -4287,7 +4300,7 @@ ul {
   margin-bottom: 30px;
 }
 .award1-area .award1-area-box i {
-  color: #b01403;
+  color: #b09f03;
   font-size: 36px;
   margin-bottom: 10px;
 }
@@ -4395,7 +4408,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .recipe-box2 .recipe-box2-social li:hover a i {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -4448,7 +4461,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .recipe-box2 .recipe-box2-bottom-content-holder h3 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
 
@@ -4473,10 +4486,10 @@ ul {
   color: #646464;
 }
 .recipe-box2 .recipe-box2-bottom-content-holder ul li a:hover {
-  color: #b01403;
+  color: #b09f03;
 }
 .recipe-box2 .recipe-box2-bottom-content-holder ul li a i {
-  color: #b01403;
+  color: #b09f03;
   margin-right: 8px;
   font-size: 16px;
 }
@@ -4604,7 +4617,7 @@ ul {
   font-size: 15px;
 }
 .food-menu1-area .food-menu1-box ul li .media-body span {
-  color: #b01403;
+  color: #b09f03;
   position: absolute;
   right: 10px;
   top: 10px;
@@ -4645,8 +4658,8 @@ ul {
   transition: all 0.5s ease-out;
 }
 .food-menu2-area .myisotop a:hover {
-  border: 1px solid #b01403;
-  background: #b01403;
+  border: 1px solid #b09f03;
+  background: #b09f03;
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
@@ -4655,8 +4668,8 @@ ul {
   transition: all 0.5s ease-out;
 }
 .food-menu2-area .myisotop .current {
-  border: 1px solid #b01403;
-  background: #b01403;
+  border: 1px solid #b09f03;
+  background: #b09f03;
   color: #ffffff;
 }
 .food-menu2-area .food-menu2-box {
@@ -4735,7 +4748,7 @@ ul {
   color: #ffffff;
 }
 .food-menu2-area .food-menu2-box .food-menu2-img-holder .food-menu2-more-holder ul li:hover {
-  background: #b01403;
+  background: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -4747,7 +4760,7 @@ ul {
   position: relative;
 }
 .food-menu2-area .food-menu2-box .food-menu2-title-holder span {
-  background-color: #b01403;
+  background-color: #b09f03;
   height: 42px;
   width: 75px;
   -moz-border-radius: 50px 50px 0 0;
@@ -4775,7 +4788,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .food-menu2-area .food-menu2-box .food-menu2-title-holder h3 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -4876,7 +4889,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .food-menu3-area .food-menu3-box .food-menu3-box-img a:hover i {
-  background: #b01403;
+  background: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -4915,7 +4928,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .food-menu3-area .food-menu3-box .food-menu3-box-content h3 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -4946,7 +4959,7 @@ ul {
   }
 }
 .food-menu3-area .food-menu3-box .food-menu3-box-content .food-menu-price:after {
-  border-color: transparent #b01403;
+  border-color: transparent #b09f03;
   border-style: solid;
   border-width: 130px 130px 0 0;
   bottom: 0;
@@ -5003,7 +5016,7 @@ ul {
   display: block;
   right: 0;
   top: 0;
-  background: #b01403;
+  background: #b09f03;
   height: 40px;
   width: 65px;
   color: #ffffff;
@@ -5057,7 +5070,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .food-menu4-area .food-menu4-box .food-menu4-box-title h3 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -5162,7 +5175,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .food-menu5-area .food-menu5-box ul li h3 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -5173,7 +5186,7 @@ ul {
   margin-bottom: 20px;
 }
 .food-menu5-area .food-menu5-box ul li span {
-  color: #b01403;
+  color: #b09f03;
   position: absolute;
   right: 10px;
   top: 10px;
@@ -5271,7 +5284,7 @@ ul {
   font-size: 14px;
 }
 .single-menu-area .single-menu-inner .single-menu-inner-content .tools-bar li span span {
-  color: #b01403;
+  color: #b09f03;
 }
 .single-menu-area .single-menu-inner .single-menu-inner-content .tools-bar li:last-child {
   margin-right: 0;
@@ -5281,7 +5294,7 @@ ul {
   position: absolute;
   right: 0;
   top: 10px;
-  color: #b01403;
+  color: #b09f03;
   font-size: 30px;
   font-weight: 700;
 }
@@ -5295,7 +5308,7 @@ ul {
   vertical-align: top;
   margin: 0 2px 0 0;
   display: inline-block;
-  border: 1px solid #b01403;
+  border: 1px solid #b09f03;
 }
 .single-menu-area .single-menu-inner .single-menu-inner-content .single-menu-inner-cart li:nth-child(2) {
   border: 1px solid #bdbdbd;
@@ -5358,7 +5371,7 @@ ul {
 .single-menu-area .single-menu-inner .ingredients-box ul li i {
   margin-right: 10px;
   border-radius: 50%;
-  background: #b01403;
+  background: #b09f03;
   height: 15px;
   width: 15px;
   line-height: 16px;
@@ -5454,7 +5467,7 @@ ul {
   color: #ffffff;
 }
 .single-menu-area .single-menu-inner .related-products .food-menu2-box .food-menu2-img-holder .food-menu2-more-holder ul li:hover {
-  background: #b01403;
+  background: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -5466,7 +5479,7 @@ ul {
   position: relative;
 }
 .single-menu-area .single-menu-inner .related-products .food-menu2-box .food-menu2-title-holder span {
-  background-color: #b01403;
+  background-color: #b09f03;
   height: 42px;
   width: 75px;
   -moz-border-radius: 50px 50px 0 0;
@@ -5495,7 +5508,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .single-menu-area .single-menu-inner .related-products .food-menu2-box .food-menu2-title-holder h3 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -5534,16 +5547,16 @@ ul {
   top: -85px;
 }
 .single-menu-area .single-menu-inner .related-products .owl-controls .owl-nav > div {
-  background: #b01403 !important;
+  background: #b09f03!important;
 }
 .single-menu-area .single-menu-inner .related-products .owl-controls .owl-nav > div:hover {
   background: transparent!important;
 }
 .single-menu-area .single-menu-inner .related-products .owl-controls .owl-nav > div:hover i {
-  color: #b01403;
+  color: #b09f03;
 }
 .single-menu-area .single-menu-inner .related-products .owl-controls .owl-dots .active span {
-  background: #b01403;
+  background: #b09f03;
 }
 /*=====================================
 18. Special Dish Styles
@@ -5658,7 +5671,7 @@ ul {
   height: 50px;
   width: 50px;
   line-height: 50px;
-  background: #b01403;
+  background: #b09f03;
   color: #ffffff;
   z-index: 1;
 }
@@ -5671,7 +5684,7 @@ ul {
   height: 50px;
   width: 50px;
   line-height: 50px;
-  background: #b01403;
+  background: #b09f03;
   color: #ffffff;
   z-index: 1;
 }
@@ -5684,7 +5697,7 @@ ul {
   height: 50px;
   width: 50px;
   line-height: 50px;
-  background: #b01403;
+  background: #b09f03;
   color: #ffffff;
   z-index: 1;
 }
@@ -5781,15 +5794,15 @@ ul {
 }
 
 .special-dish-area .owl-controls .owl-dots .active span {
-  background: #b01403;
+  background: #b09f03;
 }
 
 .special-dish-area1 .owl-controls .owl-dots .active span {
-  background: #b01403;
+  background: #b09f03;
 }
 
 .special-dish-area2 .owl-controls .owl-dots .active span {
-  background: #b01403;
+  background: #b09f03;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -5886,7 +5899,7 @@ ul {
   border-right: 0;
 }
 .blog-page-area .blog-page-box ul li span {
-  color: #b01403;
+  color: #b09f03;
   text-transform: capitalize;
 }
 .blog-page-area .blog-page-box p {
@@ -5897,7 +5910,7 @@ ul {
   z-index: 1;
   top: 0;
   left: 0;
-  background: #b01403;
+  background: #b09f03;
   height: 80px;
   width: 70px;
   text-align: center;
@@ -5981,7 +5994,7 @@ ul {
   border-right: 0;
 }
 .single-blog-page-area .single-blog-top ul li span {
-  color: #b01403;
+  color: #b09f03;
   text-transform: capitalize;
 }
 .single-blog-page-area .single-blog-top p {
@@ -5997,7 +6010,7 @@ ul {
 }
 .single-blog-page-area .single-blog-top p span:after {
   content: "";
-  background: #b01403;
+  background: #b09f03;
   height: 76px;
   width: 2px;
   position: absolute;
@@ -6009,7 +6022,7 @@ ul {
   z-index: 1;
   top: 0;
   left: 15px;
-  background: #b01403;
+  background: #b09f03;
   height: 80px;
   width: 70px;
   text-align: center;
@@ -6051,7 +6064,7 @@ ul {
 .single-blog-page-area .single-blog-middle .single-blog-tag li a {
   padding: 3px 20px;
   display: block;
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -6059,8 +6072,8 @@ ul {
   transition: all 0.5s ease-out;
 }
 .single-blog-page-area .single-blog-middle .single-blog-tag li:hover {
-  background: #b01403;
-  border: 1px solid #b01403;
+  background: #b09f03;
+  border: 1px solid #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -6086,7 +6099,7 @@ ul {
 .single-blog-page-area .single-blog-middle .single-blog-social li {
   display: inline-block;
   background: transparent;
-  border: 1px solid #b01403;
+  border: 1px solid #b09f03;
   height: 35px;
   width: 40px;
   line-height: 35px;
@@ -6112,7 +6125,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .single-blog-page-area .single-blog-middle .single-blog-social li:hover {
-  background: #b01403;
+  background: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -6203,17 +6216,17 @@ ul {
 }
 .single-recipe-area .single-recipe-inner .tools-bar li span {
   text-transform: capitalize;
-  color: #b01403;
+  color: #b09f03;
 }
 .single-recipe-area .single-recipe-inner .tools-bar li a {
   font-size: 14px;
   color: #646464;
 }
 .single-recipe-area .single-recipe-inner .tools-bar li a:hover {
-  color: #b01403;
+  color: #b09f03;
 }
 .single-recipe-area .single-recipe-inner .tools-bar li a i {
-  color: #b01403;
+  color: #b09f03;
   margin-right: 8px;
   font-size: 16px;
 }
@@ -6247,7 +6260,7 @@ ul {
 .single-recipe-area .single-recipe-inner .ingredients-box ul li i {
   margin-right: 10px;
   border-radius: 50%;
-  background: #b01403;
+  background: #b09f03;
   height: 15px;
   width: 15px;
   line-height: 16px;
@@ -6270,7 +6283,7 @@ ul {
   text-align: center;
 }
 .page-error-area .page-error-top {
-  background: #b01403;
+  background: #b09f03;
   padding: 60px 0 120px 0;
 }
 @media only screen and (max-width: 479px) {
@@ -6397,7 +6410,7 @@ ul {
   }
 }
 .contact-us-page-area .contact-us-left ul > li > i {
-  color: #b01403;
+  color: #b09f03;
   position: absolute;
   z-index: 1;
   left: 0;
@@ -6454,8 +6467,8 @@ ul {
   transition: all 0.5s ease-out;
 }
 .contact-us-page-area .contact-us-left ul > li .contact-social li:hover a {
-  border: 1px solid #b01403;
-  background: #b01403;
+  border: 1px solid #b09f03;
+  background: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -6488,7 +6501,7 @@ ul {
 .contact-us-page-area .contact-us-right .contact-form .form-response .alert-info {
   background: transparent!important;
   border: none!important;
-  color: red;
+  color: #b09f03;
   letter-spacing: 5px;
 }
 .contact-us-page-area .contact-us-right .contact-form .form-response .alert-success {
@@ -6536,7 +6549,7 @@ ul {
   background: transparent;
 }
 .stylish-input-group .input-group-addon button span {
-  color: #b01403;
+  color: #b09f03;
 }
 .form-control::-moz-placeholder {
   color: #646464;
@@ -6575,8 +6588,8 @@ ul {
   transition: all 0.5s ease-out;
 }
 .product-tags li:hover {
-  border: 1px solid #b01403;
-  background: #b01403;
+  border: 1px solid #b09f03;
+  background: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -6612,7 +6625,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .categories ul li a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -6621,7 +6634,7 @@ ul {
 }
 .categories ul li a i {
   margin-right: 15px;
-  color: #b01403;
+  color: #b09f03;
 }
 .categories ul li:last-child {
   border-bottom: none;
@@ -6649,7 +6662,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .archives ul li a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -6661,7 +6674,7 @@ ul {
   color: #646464;
 }
 .archives ul li span span {
-  color: #b01403;
+  color: #b09f03;
   margin-left: 2px;
 }
 /*----------------------------------------
@@ -6708,7 +6721,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .popular-menu .media-body h3 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -6729,7 +6742,7 @@ ul {
 }
 .popular-menu .media-body span {
   font-size: 18px;
-  color: #b01403;
+  color: #b09f03;
 }
 /*----------------------------------------
 24.6 Sidebar Recent recipes Area Styles
@@ -6775,7 +6788,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .recent-recipes .media-body h3 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -6844,7 +6857,7 @@ ul {
 }
 .footer-area-top .footer-social li a {
   line-height: 50px;
-  background: #b01403;
+  background: #b09f03;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -6897,7 +6910,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .footer-area-top .footer-social li a:hover i {
-  color: #b01403;
+  color: #b09f03;
 }
 .footer-area-top .footer-blog-post a {
   padding-right: 30px;
@@ -6925,7 +6938,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .footer-area-top .footer-blog-post .media-body h4 a:hover {
-  color: #b01403;
+  color: #b09f03;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -6933,7 +6946,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 .footer-area-top .footer-blog-post .media-body p {
-  color: #b01403;
+  color: #b09f03;
   font-size: 13px;
   margin-bottom: 10px;
 }
@@ -6946,13 +6959,13 @@ ul {
   float: right;
 }
 .footer-area-top .opening-schedule li:nth-child(3) span {
-  color: #b01403;
+  color: #b09f03;
 }
 .footer-area-top .opening-schedule li:last-child {
   margin-bottom: 0;
 }
 .footer-area-bottom {
-  background: #b01403;
+  background: #b09f03;
   padding: 19px 0 0;
 }
 @media only screen and (max-width: 767px) {
@@ -6993,12 +7006,12 @@ ul {
   background-color: #ffcdd2;
 }
 .style-switch ul .active a {
-  color: #b01403;
+  color: #b09f03;
   font-weight: 400;
 }
 .style-switch .switch-button {
   right: -45px;
-  background-color: #b01403;
+  background-color: #b09f03;
   color: #ffffff;
 }
 
